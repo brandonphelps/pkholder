@@ -1,29 +1,24 @@
 {
     "name": "lua",
-    "locations": [
-	{
-	    "include_files": [
-		"src/lapi.h"
-	    ],
-	    "source_files": [
-		"src/lapi.c"
-	    ],
-	    "version": "5.3.5",
-	    "url": "https://www.lua.org/ftp/lua-5.3.5.tar.gz",
-	    "md5": "4f4b4f323fd3514a68e0ab3da8ce3455",
-	    "protocol": "wget-tar"
+    "versions" : {
+	"5.3.5" : {
+	    "wget-tar" : {
+		"mirrors" : [
+		    {"url" : "https://www.lua.org/ftp/lua-5.3.5.tar.gz",
+		     "md5sum" : "4f4b4f323fd3514a68e0ab3da8ce3455"
+		    }
+		]
+	    },
+	    "git" : {
+		"mirrors" : [
+		    {"url" : "https://github.com/lua/lua",
+		     "git-hash" : "e354c6355e7f48e087678ec49e340ca0696725b1"
+		     "md5sum" : "e354c6355e7f48e087678ec49e340ca0696725b1"
+		    }
+		]
+	    }
 	},
-	{
-	    "version" : "5.3.4",
-	    "url" : "https://www.lua.org/ftp/lua-5.3.4.tar.gz",
-	    "md5" : "53a9c68bcc0eda58bdc2095ad5cdfc63",
-	    "protocol" : "wget-tar",
-	    "include_files" : [
-		"src/lapi.h"
-	    ],
-	    "source_files" : [
-		"src/lapi.c"
-	    ]
-	}
-    ]
+	"5.3.4" : {
+	},
+    },
 }
