@@ -4,21 +4,31 @@
 	"5.3.5" : {
 	    "wget-tar" : {
 		"mirrors" : [
-		    {"url" : "https://www.lua.org/ftp/lua-5.3.5.tar.gz",
-		     "md5sum" : "4f4b4f323fd3514a68e0ab3da8ce3455"
+		    {
+			"url" : "https://www.lua.org/ftp/lua-5.3.5.tar.gz",
+			"md5sum" : "4f4b4f323fd3514a68e0ab3da8ce3455"
 		    }
 		]
 	    },
 	    "git" : {
 		"mirrors" : [
-		    {"url" : "https://github.com/lua/lua",
-		     "git-hash" : "e354c6355e7f48e087678ec49e340ca0696725b1"
-		     "md5sum" : "e354c6355e7f48e087678ec49e340ca0696725b1"
+		    {
+			"url" : "https://github.com/lua/lua",
+			"git-hash" : "e354c6355e7f48e087678ec49e340ca0696725b1",
+			"md5sum" : "e354c6355e7f48e087678ec49e340ca0696725b1"
 		    }
 		]
 	    }
 	},
 	"5.3.4" : {
-	},
-    },
+	    "wget-tar" : {
+		"mirrors" : [
+		    {
+			"url" : "https://www.lua.org/ftp/lua-5.3.4.tar.gz",
+			"md5sum" : "53a9c68bcc0eda58bdc2095ad5cdfc63"
+		    }
+		]
+	    }
+	}
+    }
 }
